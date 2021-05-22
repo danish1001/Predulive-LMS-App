@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dr.predulive">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Predulive">
+        <activity android:name=".authenticationDirectory.LoginActivity" />
+        <activity android:name=".dashboardActivities.EditProfileActivity" />
+        <activity android:name=".dashboardActivities.FAQActivity" />
+        <activity android:name=".dashboardActivities.StudentOrInstructorListActivity" />
+        <activity android:name=".dashboardActivities.AboutPreduliveActivity" />
+        <activity android:name=".dashboardActivities.CalendarActivity" />
+        <activity android:name=".instructorDirectory.InstructorDashboardActivity" />
+        <activity android:name=".studentDirectory.StudentDashboardActivity" />
+        <activity android:name=".authenticationDirectory.ForgotPasswordActivity" />
+        <activity android:name=".authenticationDirectory.SignUpActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

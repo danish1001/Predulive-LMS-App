@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "846293189880",
+    "project_id": "predulive-2dbd5",
+    "storage_bucket": "predulive-2dbd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846293189880:android:e173b798cf1ad026e3670d",
+        "android_client_info": {
+          "package_name": "com.dr.predulive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846293189880-4nodvtu8eb1mnh20dsmoqu5egsks7f1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADqVj8XdJiFSw4Ytwm0RHBnJEl1hTSEC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846293189880-4nodvtu8eb1mnh20dsmoqu5egsks7f1e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
